@@ -1,0 +1,175 @@
+/* Common Variables */
+:root{
+    --body:#191919;
+    --background:#141414;
+    --grey-color:#333333;
+    --yellow-color:#ffd119;
+    --yellow-text:var(--yellow-color);
+    --text-color:#565656;
+}
+
+/* End of Common Variables */
+
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&display=swap');
+body {
+    background-color: var(--body);
+
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    
+
+}
+
+
+.yellow-color{
+    background-color: var(--yellow-color);
+}
+
+.yellow-text{
+    color: var(--yellow-text);
+}
+
+.black-background{
+    background-color: var(--background);
+}
+
+.grey-background{
+    background-color: var(--grey-color);
+}
+
+.grey2-background{
+    background-color: var(--body);
+    border: 1px solid var(--grey-color);
+}
+.grey-text{
+    color: var(--text-color);
+    font-family: ku;
+}
+.IcontWidth{
+    width:10%
+}
+.IcontWidth2{
+    width:15%
+}
+/* End of Global Styles */
+
+/* First section */
+#mainTitle{
+
+    justify-content: space-between;
+}
+
+
+
+.fa-arrow-right{
+    transform: rotate(-30deg);
+    background-color: var(--yellow-color);
+    border-radius: 100%;
+}
+
+#first-section #three_sections .card{
+border-radius: 0%;
+}
+
+#ss{
+    border: 2px solid red;
+}
+
+#title{
+    font-size:60px;
+}
+/* End of First section */
+
+
+/* Third Section */
+#third-section .nav-tabs .nav-item.show .nav-link, #third-section .nav-tabs .nav-link.active, #third-section .nav-link{
+    color: white;
+    width: 100%;
+    background-color:var(--body);
+    border:1px solid var(--grey-color);
+}
+
+#third-section .nav-tabs {
+    border: none;
+}
+
+#third-section .nav-tabs .nav-link {
+    background: 0 0;
+    border: 1px solid var(--grey-color);
+    
+  
+}
+
+#third-section #tabs{
+    border-bottom: 1px solid var(--grey-color);
+    border-top: 1px solid var(--grey-color);
+
+}
+
+#third-section #tabs2{
+    border-bottom: 1px solid var(--grey-color);
+
+}
+/* End of Third Section */
+
+/* Fifth section */
+#stars-testmonials{
+    transform: translate(50%, -50%);
+    border-radius: 50px;
+    border: 1px solid var(--grey-color);
+}
+/* End of Fifth section */
+
+
+/* Footer */
+#secondPartOfFooter .row{
+    justify-content: space-between;
+}
+#secondPartOfFooter .grey2-background{
+    width: 75%;
+}
+#FooterLogo{
+    width: 75%;
+}
+#FooterThreeColumns .col-md-4{
+width: 32.8%;
+}
+@media screen and (max-width: 600px) {
+    #secondPartOfFooter .row{
+        justify-content: center;
+        text-align: center;
+    }
+    /* First Section */
+    #title{
+        font-size:30px;
+    }
+    #first-section .row{
+        text-align: center;
+    }
+    /* First Section */
+    #mainTitle{
+
+        justify-content:center;
+        width: 100%;
+    }
+    #secondPartOfFooter .grey2-background{
+        width: 100%;
+    }
+
+    #FooterLogo{
+        width: 35%;
+        text-align: center;
+    }
+    #FooterLogoContainer{
+        text-align: center;
+    }
+
+    #FooterThreeColumns .col-md-4{
+        width:fit-content;
+    }
+}
+/* End of Footer */
